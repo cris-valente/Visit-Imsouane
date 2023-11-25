@@ -1,0 +1,124 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Original Surfer', sans-serif;
+
+}
+
+
+
+#hero {
+    background-image: url("https://www.jeremybackpacker.com/wp-content/uploads/2019/10/the-bay-imsouane-maroc.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    
+}
+.hero-text {
+    border-radius: 5px;
+    width: 300px;
+    color: #F1FAEE;
+    padding: 10px 5px;
+    text-shadow: 0 0 5px black;
+}
+
+#hero-title {
+    background: #1D3557;
+    
+    width: 350px;
+    font-size: 32px;
+   
+}
+
+#hero-desc {
+    background: #457B9D;
+    font-size:19px;
+}
+#act-bg h3{
+    margin: 0 0 20px;
+}
+#act-bg {
+    padding-top: 20px;
+    background: #F1FAEE;
+    color: #1D3557;
+}
+#activities-section {
+    margin-top: 0px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-bottom: 50px;
+    color: #1D3557;
+    
+}
+#guide-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background: #A8DADC;
+    width: 300px;
+    margin: 0 auto 10px;
+    border-bottom: solid 10px #1D3557;
+    padding: 10px;
+    border-radius: 5px;
+    color: #1D3557;
+    
+    
+}
+.act {
+    width: 200px;
+    font-size: 14px;
+}
+.act-img {
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin: 0 auto;
+      
+}
+
+#tajine-img {
+    background-image: url("images/tajine.jpg");
+}
+
+#surf-img {
+    background-image: url("images/surf.jpg");
+}
+
+#dunes-img {
+    background-image: url("images/dunes.jpg");
+}
+
+.guide-desc {
+    width: 200px;
+    
+    
+}
+
+.guide-desc p h4 {
+    font-size: 14px;
+}
+#guide-pic {
+    height: 150px;
+    border-radius: 5px;
+}
+.italic {
+    font-style: italic;
+}
