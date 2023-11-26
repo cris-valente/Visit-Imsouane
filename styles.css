@@ -20,7 +20,7 @@ body {
 #hero {
     background-image: url("https://www.jeremybackpacker.com/wp-content/uploads/2019/10/the-bay-imsouane-maroc.jpg");
     background-size: cover;
-    height: 400px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,16 +38,17 @@ body {
 
 #hero-title {
     background: #1D3557;
-    
     width: 350px;
     font-size: 32px;
-   
 }
 
 #hero-desc {
     background: #457B9D;
     font-size:19px;
 }
+
+/* Acitivies section */
+
 #act-bg h3{
     margin: 0 0 20px;
 }
@@ -55,10 +56,9 @@ body {
     padding-top: 20px;
     background: #F1FAEE;
     color: #1D3557;
+    height: 40vh;
 }
 #activities-section {
-    margin-top: 0px;
-    
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -73,7 +73,7 @@ body {
     align-items: center;
     background: #A8DADC;
     width: 300px;
-    margin: 0 auto 10px;
+    margin: 10px auto 10px;
     border-bottom: solid 10px #1D3557;
     padding: 10px;
     border-radius: 5px;
@@ -84,14 +84,24 @@ body {
 .act {
     width: 200px;
     font-size: 14px;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
 }
+.act:hover {
+transform: scale(1.06);  cursor: pointer;
+}
+
 .act-img {
     border-radius: 50%; 
     width: 100px;
     height: 100px;
     background-size: cover;
-    margin: 0 auto;
-      
+    margin: 0 auto;   
+}
+
+.act-img:hover {
+    
 }
 
 #tajine-img {
